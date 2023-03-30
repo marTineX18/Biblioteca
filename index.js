@@ -68,5 +68,5 @@ let libroVender = libros.find((libro) => libro.cantidad >= 100 && libro.ganancia
 if(libroVender){
     console.log(`el libro ${libroVender.nombre} escrito por ${libroVender.autor} en el año ${libroVender.año_p} con el codigo ${libroVender.codigo} y precio de ${libroVender.precio} es la mejor opción a vender`);
 } else{
-    console.log("nel");
+    console.log("Ninguno de los libros es la mejor opción");
 }
